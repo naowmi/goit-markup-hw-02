@@ -9,7 +9,7 @@ a {
 ul {
     list-style-type: none;
 }
-
+/* HEADER */
 .header-subtitle {
     color: #4D5AE5;
 }
@@ -17,7 +17,7 @@ ul {
 .header-title {
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.16;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -25,13 +25,44 @@ ul {
 .header-navigate-list {
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 .header-contact {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
+}
+
+/* HERO SECTION */
+.hero-section {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+}
+.hero-section-title {
+    width: 496px;
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+.hero-section-button {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
 }
