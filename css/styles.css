@@ -24,24 +24,31 @@ ul {
     text-transform: uppercase;
 }
 
-.header-navigate-link a:focus {
-    color: #404bbf;
+.header-navigate-link {
+    color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
-
+.header-navigate-link:hover,
+.header-navigate-link:focus {
+    color: #404bbf;
+}
 .header-contact {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
+.header-contact-list {
+    font-family: normal;
+}
+
 .header-contact-list a:hover,
 .header-contact-list a:focus {
     color: #404BBF;
-    font-family: normal;
+    
 }
 
 /* HERO SECTION */
@@ -65,6 +72,7 @@ ul {
     letter-spacing: 0.64px;
     cursor: pointer;
 }
+.hero-section-button:hover,
 .hero-section-button:focus {
     background-color: #404BBF;
 }
@@ -88,6 +96,7 @@ ul {
     background-color: #F4F4FD;
 }
 .team-title {
+    color: #2e2f42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -99,6 +108,7 @@ ul {
     background-color: #FFFFFF;
 }
 .team-name {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -112,6 +122,7 @@ ul {
 }
 /* SECTION OUR PORTFOLIO */
 .portfolio-title {
+    color: #2e2f42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -120,6 +131,7 @@ ul {
     text-transform: capitalize;
 }
 .portfolio-services {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
